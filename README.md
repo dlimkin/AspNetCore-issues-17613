@@ -24,7 +24,7 @@ $ npm install
 
 - In project directory terminal `Ctrl + C`
 
-- Wait 2 second
+- Wait 2 seconds
 
 - In project directory terminal `dotnet run` again
 

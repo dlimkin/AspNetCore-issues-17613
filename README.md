@@ -1,4 +1,11 @@
 # AspNetCore-issues-17613
+- OS: Linux 5.4.3
+- dotnet: 3.1.100 version
+- browser: Chromium 79.0.3945.88 version
+
+### Environments
+- .NET Core 3.1
+- noodejs and npm
 
 ### Dependencies
 - .NET Core 3.1

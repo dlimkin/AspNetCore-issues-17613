@@ -1,0 +1,11 @@
+<div style="text-align: center">
+  <button *ngIf="!isConnected()" (click)="hubConnect()">CONNECT TO HUB</button>
+</div>
+
+<div style="margin: 20px 10px">
+<h1>SignalR Status</h1>
+<p>Connected: {{isConnected() ? 'yes' : 'no'}}</p>
+<p>onReconnecting: {{isReconnecting ? 'yes' : 'no'}}</p>
+<p>onReconnected: {{isReconnected ? 'yes' : 'no'}}</p>
+<p>onClose: {{isClose ? 'yes' : 'no'}}</p>
+</div>
